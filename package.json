@@ -1,0 +1,16 @@
+{
+  "name": "opencode-session-start",
+  "version": "0.1.0",
+  "description": "OpenCode 2 plugin: runs an agent's Session Start routine itself on the first prompt of a session and injects the report; skippable with [no-start] or /task, switchable off.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Claude Sonnet 5.5 (Anthropic)",
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/q-org-harnesses/opencode-session-start.git"
+  }
+}
